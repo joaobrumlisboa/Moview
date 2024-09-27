@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Moview" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize seu tema aqui. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.Moview">
+        <!-- Você pode adicionar mais personalizações aqui se necessário -->
+    </style>
+</resources>

@@ -1,4 +1,9 @@
 package com.example.moview.ui.detail_movies
 
-class Detail_moviesActivity {
+import androidx.appcompat.app.AppCompatActivity
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
+class Detail_moviesActivity : AppCompatActivity() {
+    // ...
 }

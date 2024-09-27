@@ -1,0 +1,11 @@
+[33mc419190[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maaaa[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/erro[m[33m, [m[1;32mmain[m[33m, [m[1;32merro[m[33m)[m HEAD@{0}: checkout: moving from erro to aaaa
+[33mc419190[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maaaa[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/erro[m[33m, [m[1;32mmain[m[33m, [m[1;32merro[m[33m)[m HEAD@{1}: checkout: moving from aaaa to erro
+[33mc419190[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maaaa[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/erro[m[33m, [m[1;32mmain[m[33m, [m[1;32merro[m[33m)[m HEAD@{2}: Branch: renamed refs/heads/erro to refs/heads/aaaa
+[33mc419190[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maaaa[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/erro[m[33m, [m[1;32mmain[m[33m, [m[1;32merro[m[33m)[m HEAD@{4}: checkout: moving from aaa to erro
+[33m178d9a1[m HEAD@{5}: Branch: renamed refs/heads/erro to refs/heads/aaa
+[33m178d9a1[m HEAD@{7}: commit: estruturação inicial
+[33mc419190[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maaaa[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/erro[m[33m, [m[1;32mmain[m[33m, [m[1;32merro[m[33m)[m HEAD@{8}: checkout: moving from main to erro
+[33mc419190[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32maaaa[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/erro[m[33m, [m[1;32mmain[m[33m, [m[1;32merro[m[33m)[m HEAD@{9}: commit (amend): estruturação inicial
+[33m2386f09[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{10}: checkout: moving from master to main
+[33m2386f09[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{11}: commit (amend): estruturação inicial
+[33mc1edbeb[m HEAD@{12}: commit (initial): estruturação inicial

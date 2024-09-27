@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Moview</string>
+    <string name="register_activity_label">Register</string>
 </resources>
