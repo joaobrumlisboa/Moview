@@ -20,19 +20,23 @@ class UserViewModel @Inject constructor(
                 onError("Usuário já existe")
             } else {
                 val user = User(nome = nome, senha = senha)
-                userDao.insert(user)
-                onSuccess()
+                try {
+                    userDao.insert(user)
+                    onSuccess()
+                } catch (e: Exception) {
+                    onError("Erro ao registrar usuário: ${e.message}")
+                }
             }
         }
     }
 
     fun login(nome: String, senha: String, onResult: (User?) -> Unit) {
         viewModelScope.launch {
-            val user = userDao.getUserByName(nome) // Busque o usuário pelo nome
-            if (user != null && user.senha == senha) { // Verifique a senha
+            val user = userDao.getUserByName(nome)
+            if (user != null && user.senha == senha) {
                 onResult(user)
             } else {
-                onResult(null) // Retorne null se não encontrar o usuário ou a senha não corresponder
+                onResult(null)
             }
         }
     }

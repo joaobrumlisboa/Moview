@@ -7,10 +7,10 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [User::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
-
     abstract fun userDao(): UserDao
 
     companion object {
+        // Implementação do singleton da AppDatabase
         @Volatile
         private var INSTANCE: AppDatabase? = null
 

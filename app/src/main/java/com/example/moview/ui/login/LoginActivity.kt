@@ -42,9 +42,13 @@ class LoginActivity : AppCompatActivity() {
                         Toast.makeText(this, "Login realizado com sucesso!", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, MoviesActivity::class.java)
                         startActivity(intent)
+                        editTextNome.text.clear()
+                        editTextSenha.text.clear()
                         finish()
                     } else {
                         Toast.makeText(this, "Usuário e/ou senha incorretos", Toast.LENGTH_SHORT).show()
+                        editTextNome.text.clear()
+                        editTextSenha.text.clear()
                     }
                 }
             } else {

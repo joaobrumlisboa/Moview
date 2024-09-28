@@ -47,6 +47,10 @@ class RegisterActivity : AppCompatActivity() {
                     toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 200)
                     toast.show()
 
+                    // Limpar campos
+                    editTextNome.text.clear()
+                    editTextSenha.text.clear()
+
                     // Adicionar delay de 2 segundos antes de redirecionar para o login
                     Handler(Looper.getMainLooper()).postDelayed({
                         val intent = Intent(this, LoginActivity::class.java)
@@ -60,6 +64,10 @@ class RegisterActivity : AppCompatActivity() {
                     val toast = Toast.makeText(this, it, Toast.LENGTH_SHORT)
                     toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 200)
                     toast.show()
+
+                    // Limpar campos
+                    editTextNome.text.clear()
+                    editTextSenha.text.clear()
                 })
             } else {
                 // Exibir Toast se os campos estiverem vazios
