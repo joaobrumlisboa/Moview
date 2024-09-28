@@ -28,5 +28,5 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" /> <!-- Botão de login -->
+        android:text="Ir para login" /> <!-- Botão de login -->
 </LinearLayout>

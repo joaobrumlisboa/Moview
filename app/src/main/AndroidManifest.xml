@@ -32,5 +32,11 @@
             android:label="@string/register_activity_label"
             android:theme="@style/AppTheme"/>
 
+        <activity android:name=".ui.movies.MoviesActivity"
+            android:exported="true"
+            android:label="@string/movies_activity_label"
+            android:theme="@style/AppTheme"/>
+
+
     </application>
 </manifest>

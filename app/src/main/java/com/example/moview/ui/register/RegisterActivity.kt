@@ -43,9 +43,7 @@ class RegisterActivity : AppCompatActivity() {
             if (nome.isNotEmpty() && senha.isNotEmpty()) {
                 userViewModel.register(nome, senha, {
                     // Exibir Toast na parte superior
-                    val toast = Toast.makeText(this, "Usuário registrado com sucesso", Toast.LENGTH_SHORT)
-                    toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 200)
-                    toast.show()
+                    Toast.makeText(this, "usuário registrado com sucesso", Toast.LENGTH_SHORT).show()
 
                     // Limpar campos
                     editTextNome.text.clear()
@@ -61,9 +59,7 @@ class RegisterActivity : AppCompatActivity() {
 
                 }, {
                     // Exibir Toast de erro
-                    val toast = Toast.makeText(this, it, Toast.LENGTH_SHORT)
-                    toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 200)
-                    toast.show()
+                    Toast.makeText(this, "Erro ao registrar usuário", Toast.LENGTH_SHORT).show()
 
                     // Limpar campos
                     editTextNome.text.clear()
@@ -71,9 +67,7 @@ class RegisterActivity : AppCompatActivity() {
                 })
             } else {
                 // Exibir Toast se os campos estiverem vazios
-                val toast = Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT)
-                toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 200)
-                toast.show()
+                Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
             }
         }
     }
