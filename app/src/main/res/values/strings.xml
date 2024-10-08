@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Moview</string>
+    <string name="register_activity_label">Register</string>
+    <string name="movies_activity_label">Movies</string>
+    <string name="toggle_mode">Modo de exibição</string>
+</resources>
